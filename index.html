@@ -60,6 +60,31 @@
       <button data-modal-open class="hero-button" type="button">Заказать услугу</button>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+          <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+          <form>
+            <div role="roule">
+              <label for="name">Ім'я</label>
+              <svg>
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+              <input type="text" name="name" id="name">
+              <label for="tel">Телефон</label>
+              <svg>
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <input type="tel" name="tel" id="tel">
+              <label for="email">Пошта</label>
+              <svg>
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              <input type="email" name="email" id="email">
+              <label for="coment">Комментарий</label>
+              <textarea name="coment" id="coment" rows="10"></textarea>
+              <input type="checkbox" name="police" id="police">
+              <label for="police">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+              <button type="submit">Отправить</button>
+            </div>
+          </form>
           <button data-modal-close class="btn-close"><svg class="icone-close">
               <use href="./images/icons.svg#icon-close"></use>
             </svg></button>

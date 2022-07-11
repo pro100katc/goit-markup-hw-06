@@ -311,6 +311,16 @@ p {
   height: 11px;
 }
 
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 40px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
 
 /* ----------HERO------------- */
 
@@ -386,7 +396,6 @@ p {
 .item-card:not(:last-child) {
   margin-right: 30px;
 }
-
 
 .caption {
   font-weight: 700;
@@ -791,8 +800,6 @@ img {
 }
 
 .footer-sigin {
-
-
   justify-content: center;
   padding-top: 12px;
   margin-left: 70px;
