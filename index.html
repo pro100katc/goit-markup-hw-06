@@ -52,42 +52,48 @@
     <!----------HERO---------->
     <section class="hero section overlay">
       <div class="container">
-        <h1 class="hero-title">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-      </div>
-      <button data-modal-open class="hero-button" type="button">Заказать услугу</button>
-      <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-          <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
-          <form>
-            <div class="form-items" role="roule">
-              <label for="name">Ім'я</label>
-              <svg class="icon-modal">
-                <use href="./images/icons.svg#icon-person"></use>
+        <h1 class="hero-title">Эффективные решения <br />для вашего бизнеса</h1>
+        <button data-modal-open class="hero-button" type="button">Заказать услугу</button>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button data-modal-close class="btn-close"><svg class="icone-close">
+                <use href="./images/icons.svg#icon-close"></use>
               </svg>
-              <input type="text" name="name" id="name">
-              <label for="tel">Телефон</label>
-              <svg class="icon-modal">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-              <input type="tel" name="tel" id="tel">
-              <label for="email">Пошта</label>
-              <svg class="icon-modal">
-                <use href="./images/icons.svg#icon-email"></use>
-              </svg>
-              <input type="email" name="email" id="email">
-              <label for="coment">Комментарий</label>
-              <textarea name="coment" id="coment" rows="10"></textarea>
-              <input type="checkbox" name="police" id="police">
-              <label for="police">Соглашаюсь с рассылкой и принимаю Условия договора</label>
-              <button type="submit">Отправить</button>
-            </div>
-          </form>
-          <button data-modal-close class="btn-close"><svg class="icone-close">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg></button>
+            </button>
+            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form class="modal-form">
+              <label class="modal-form-field">Имя
+                <input class="modal-form-input" type="text" name="user-name" required>
+                <svg class="modal-form-icons">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </label>
+
+              <label class="modal-form-field">Телефон
+                <input class="modal-form-input" type="tel" name="user-tel" required>
+                <svg class="modal-form-icons">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </label>
+
+              <label class="modal-form-field">Почта
+                <input class="modal-form-input" type="email" name="user-email" required>
+                <svg class="modal-form-icons">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </label>
+
+              <label class="modal-form-field">Комментарий
+                <textarea class="modal-form-text" name="user-comment" placeholder="Введите текст"></textarea>
+              </label>
+              <label for="checkbox" class="modal-form-checkbox">
+                <input type="checkbox" name="checkbox" id="checkbox" class="modal-form-check">
+                <span class="modal-check"></span>
+                Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+              </label>
+              <button class="form-button" type="submit">Отправить</button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
