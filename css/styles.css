@@ -311,6 +311,11 @@ p {
   height: 11px;
 }
 
+.icon-modal{
+  width: 18px;
+    height: 18px;
+
+}
 .modal-title {
   font-weight: 700;
   font-size: 20px;
@@ -321,6 +326,10 @@ p {
   color: var(--title-text-color);
 }
 
+.form-items{
+  display: block;
+  justify-content: baseline;
+}
 
 /* ----------HERO------------- */
 
