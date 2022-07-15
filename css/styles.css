@@ -212,8 +212,8 @@ p {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to right,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)),
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
     url(../images/heroimg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -281,9 +281,8 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  height: 581px;
   width: 528px;
-  padding: 15px;
+  padding: 40px;
   background-color: var(--background-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -366,10 +365,10 @@ p {
 
 .modal-form-icons {
   position: absolute;
-  top: 32px;
+  bottom: 11px;
   left: 15px;
-  width: 15px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -464,7 +463,9 @@ p {
   letter-spacing: 0.06em;
   cursor: pointer;
   margin-top: 30px;
-  margin-left: 124px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
 }
 
 /* ----------HERO------------- */
