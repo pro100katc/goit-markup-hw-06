@@ -262,8 +262,8 @@ p {
 
 .backdrop {
   position: fixed;
-  width: 1600px;
-  height: 1024px;
+  width: 100%;
+  height: 100%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -271,7 +271,7 @@ p {
 }
 
 .backdrop.is-hidden {
-  opacity: 0, 5;
+  opacity: 0.5;
   pointer-events: none;
   visibility: hidden;
 }
